@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './assets/react-toolbox/theme.css';
 import theme from './assets/react-toolbox/theme.js';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
+import Button from 'react-toolbox/lib/button/Button';
+
+
 
 class App extends Component {
   render() {
@@ -9,6 +12,7 @@ class App extends Component {
       <ThemeProvider theme={theme}>
       <div className="App">
       <h1>Mo Bamba!</h1>
+      <Button label="Test Button" raised primary />
       </div>
   </ThemeProvider>
   
