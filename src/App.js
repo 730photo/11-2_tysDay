@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
       <div className="App">
-      <h1>Mo Bamba!</h1>
-      <Button label="Test Button" raised primary />
+      <h1>Gucci Mane</h1>
+      <Button label="Select" raised primary />
       </div>
   </ThemeProvider>
   
