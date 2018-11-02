@@ -12,7 +12,7 @@ class App extends Component {
       <ThemeProvider theme={theme}>
       <div className="App">
       <h1>Gucci Mane</h1>
-      <Button label="Select" floating />
+      <Button label="Select" raised primary />
       </div>
   </ThemeProvider>
   
